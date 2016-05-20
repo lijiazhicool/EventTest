@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eventtest.MainActivity">
+
+    <!--<com.example.eventtest.EventTest.BigLinearLayout-->
+        <!--android:layout_width="350dip"-->
+        <!--android:layout_height="350dip"-->
+        <!--android:background="#ff0000"-->
+        <!--&gt;-->
+        <!--<com.example.eventtest.EventTest.SmallLinearLayout-->
+            <!--android:layout_width="200dip"-->
+            <!--android:layout_height="200dip"-->
+            <!--android:background="#ffff00"-->
+            <!--android:gravity="center">-->
+            <!--<com.example.eventtest.EventTest.TestView-->
+                <!--android:layout_width="50dip"-->
+                <!--android:layout_height="50dip"-->
+                <!--android:background="#ff00ff"/>-->
+        <!--</com.example.eventtest.EventTest.SmallLinearLayout>-->
+    <!--</com.example.eventtest.EventTest.BigLinearLayout>-->
+    <!--<EditText-->
+        <!--android:id="@+id/edit"-->
+        <!--android:layout_width="60dip"-->
+        <!--android:layout_height="40dip"-->
+        <!--android:hint="one"/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="60dip"-->
+        <!--android:layout_height="40dip"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:hint="two"/>-->
+
+
+    <!--<com.example.eventtest.CustomViews.MyFrameLayout1-->
+        <!--android:id="@+id/frame"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#ff0000"-->
+        <!--android:layout_alignParentRight="true">-->
+
+    <!--</com.example.eventtest.CustomViews.MyFrameLayout1>-->
+
+    <!--<com.example.eventtest.CustomViews.MyScrollViewGroup1-->
+        <!--xmlns:gs="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/mvp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:background="#FFFF00"-->
+        <!--gs:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv1"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--gs:layout_gravity="left"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:clickable="true"-->
+            <!--android:src="@drawable/lead_page_1" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--gs:layout_gravity="center_horizontal"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/lead_page_2" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--gs:layout_gravity="right"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/lead_page_3" />-->
+    <!--</com.example.eventtest.CustomViews.MyScrollViewGroup1>-->
+
+    <!--<com.example.eventtest.CustomViews.MyHorizontalView-->
+        <!--xmlns:gs="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/mvp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:background="#FFFF00"-->
+        <!--gs:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv1"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--gs:layout_gravity="left"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:clickable="true"-->
+            <!--android:src="@drawable/lead_page_1" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--gs:layout_gravity="center_horizontal"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/lead_page_2" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--gs:layout_gravity="right"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/lead_page_3" />-->
+    <!--</com.example.eventtest.CustomViews.MyHorizontalView>-->
+
+    <com.example.eventtest.CustomViews.MyViewPage
+        android:id="@+id/viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.example.eventtest.CustomViews.MyViewPage>
+
+</RelativeLayout>
